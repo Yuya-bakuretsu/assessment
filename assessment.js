@@ -84,7 +84,7 @@
         '診断結果の文言の特定の部分を名前に置き換える処理が正しくありません。'
     );
      userNameInput.onkeydown = (event) => {
-        if (event.keyCode === 14) {
+        if (event.keyCode === 13) {
             assessmentButton.onclick();
         }
     };
